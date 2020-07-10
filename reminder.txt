@@ -1,0 +1,7 @@
+cd C:\Users\Hoang\AppData\Local\Programs\Python\Python37-32\Scripts
+pyuic5.exe -x "path + filename of qt" -o "path + resulting .py filename (make sure to end in .py)"
+
+pyrcc5.exe "path + filename of qrc" -o "path + resulting .py filename (make sure to end in .py)"
+
+location of startup folder:
+    win+R, then enter "shell:startup"
